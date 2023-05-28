@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/main.css" />
+        <link rel="stylesheet" href="../css/reset.css" />
+        <link rel="stylesheet" href="../css/header.css" />
+        <link rel="stylesheet" href="../css/footer.css" />
+        <link rel="stylesheet" href="../css/menu.css" />
+        <title>QuickBite - Меню</title>
+    </head>
+    <body>
+        <main class="page">
+            <div class="wrapper">
+                <header class="header">
+                    <section class="header__desktop-menu">
+                        <a class="header__logo" href="../index.html">QuickBite</a>
+                        <ul class="header__nav">
+                            <a class="header__nav-item">Меню</a>
+                            <a href="./about.html" class="header__nav-item">Про нас</a>
+                        </ul>
+                    </section>
+
+                    <section class="header__burger-menu">
+                        <a class="header__logo" href="../index.html">QuickBite</a>
+                        <input class="menu-checkbox" type="checkbox" id="burger-toggle" />
+                        <label class="header-icon" for="burger-toggle">&#9776;</label>
+
+                        <div class="menu">
+                            <a class="menu-item">Меню</a>
+                            <a class="menu-item" href="./about.html">Про нас</a>
+                        </div>
+                    </section>
+                </header>
+            </div>
+
+            <section class="container">
+                <div class="wrapper">
+                    <div class="menu-title">Меню</div>
+                    <div class="menu-products">
+                        <div class="menu-products__item">
+                            <img src="../assets/eat/burger.png" alt="" />
+                            <div class="name">Королівський Бургер</div>
+                            <div class="price">149 UAH</div>
+                            <button class="menu-products__item-button">Додади</button>
+                        </div>
+
+                        <div class="menu-products__item">
+                            <img src="../assets/eat/burito.png" alt="" />
+                            <div class="name">Буріто</div>
+                            <div class="price">110 UAH</div>
+                            <button class="menu-products__item-button">Додади</button>
+                        </div>
+                        <div class="menu-products__item">
+                            <img src="../assets/eat/nuggets.png" alt="" />
+                            <div class="name">Ніжки в клярі</div>
+                            <div class="price">189 UAH</div>
+                            <button class="menu-products__item-button">Додади</button>
+                        </div>
+                        <div class="menu-products__item">
+                            <img src="../assets/eat/pizza.png" alt="" />
+                            <div class="name">Піца Пепероні</div>
+                            <div class="price">115 UAH</div>
+                            <button class="menu-products__item-button">Додади</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="wrapper">
+                <footer class="footer">
+                    <ul class="footer__nav">
+                        <a class="footer__nav-item">Меню</a>
+                        <a href="./about.html" class="footer__nav-item">Про нас</a>
+                    </ul>
+
+                    <div class="footer__logo">QuickBite</div>
+
+                    <div class="footer__utensils">© Авторські права належать QuickBite</div>
+                </footer>
+            </div>
+        </main>
+        <script src="../assets/script.js"></script>
+    </body>
+</html>
